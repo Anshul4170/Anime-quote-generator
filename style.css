@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/bg1.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: top center;
+    background-size: cover;
+}
+
+main {
+    width: 50vh;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(240,248,255,0.6);
+    border-radius: 10px;
+}
+
+.quote-body {
+    padding: 20px;
+    line-height: 2rem;
+}
+
+.quote {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.charactername {
+    text-align: right;
+}
+
+.animename {
+    text-align: right;
+}
+
